@@ -112,6 +112,7 @@ header .bottom-side .container .searchbar span {
 
 main {
   background-color: #1c1c1c;
+  height: 1000px;
 }
 
 main #current_series h2 {
@@ -119,5 +120,44 @@ main #current_series h2 {
   padding: 10px 15px;
   color: white;
   background-color: #0282f9;
+}
+
+main .box-card {
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 50px;
+}
+
+main .box-card .card {
+  width: 180px;
+  margin: 20px 10px;
+}
+
+main .box-card .card .card-image {
+  width: 180px;
+  height: 180px;
+}
+
+main .box-card .card img {
+  -o-object-position: top;
+     object-position: top;
+  -o-object-fit: cover;
+     object-fit: cover;
+  height: 100%;
+  width: 100%;
+}
+
+main .box-card .card .card-title h4 {
+  font-size: 14px;
+  color: white;
+  font-weight: normal;
+  text-transform: uppercase;
+  padding-top: 15px;
+}
+
+main .box-card .card:hover {
+  transition: 1s;
+  opacity: 0.8;
+  transform: translateY(-10px);
 }
 

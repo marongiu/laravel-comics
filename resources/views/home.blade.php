@@ -6,15 +6,33 @@
     <div class="container">
       <div class="title">
         <h2>CURRENT SERIES</h2>
+      </div>
 
 
+{{-- Box card --}}
+      <div class="box-card">
+        @foreach($cards as $card)
+          <div class="card">
+            {{-- Inserisco tutto in a per portare al link --}}
+            <a href="#">
+              {{-- Immagine card --}}
+              <div class="card-image">
+                <img src="{{ $card["thumb"] }}">
+              </div>
+              {{-- Titolo card --}}
+              <div class="card-title">
+                <h4>
+                  {{ $card["series"] }}
+                </h4>
+              </div>
+            </a>
+          </div>
 
-        <div class="box-card">
-          {{-- @foreach($cards as $card)
-            {{$card['title']}}
+        @endforeach
+      </div>
+{{-- Bottone caricamento --}}
+      <div class="button_load">
 
-          @endforeach --}}
-        </div>
       </div>
     </div>
   </section>
