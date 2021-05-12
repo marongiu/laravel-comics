@@ -1,0 +1,11 @@
+main {
+  background-color: $main_background;
+  #current_series {
+      h2 {
+        display: inline;
+        padding: 10px 15px;
+        color: white;
+        background-color: $primary-blue;
+      }
+  }
+}

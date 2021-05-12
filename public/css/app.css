@@ -93,7 +93,7 @@ header .bottom-side .container .searchbar {
 }
 
 header .bottom-side .container .searchbar input {
-  border-bottom: 1px solid #0282f9;
+  border-bottom: 3px solid #0282f9;
 }
 
 header .bottom-side .container .searchbar span {
@@ -108,5 +108,16 @@ header .bottom-side .container .searchbar span {
   background-image: url("/images/jumbotron.jpg");
   background-position-x: center;
   background-size: cover;
+}
+
+main {
+  background-color: #1c1c1c;
+}
+
+main #current_series h2 {
+  display: inline;
+  padding: 10px 15px;
+  color: white;
+  background-color: #0282f9;
 }
 
