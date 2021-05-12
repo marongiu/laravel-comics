@@ -1,0 +1,43 @@
+header {
+  .top-side {
+    background-color: $top-header;
+    height: 25px;
+    nav {
+      ul {
+        padding-top: 5px;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        li {
+          margin-left: 50px;
+          a {
+            text-transform: uppercase;
+            color: white;
+            font-size: 12px;
+          }
+        }
+      }
+    }
+  }
+
+  .bottom-side {
+    background-color: white;
+    .container {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      nav {
+        ul {
+          display: flex;
+          justify-content: space-around;
+          align-items: center;
+          li {
+            text-transform: uppercase;
+            padding: 0 10px;
+          }
+        }
+      }
+    }
+  }
+}
