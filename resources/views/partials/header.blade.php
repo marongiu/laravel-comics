@@ -53,15 +53,21 @@
             <a  href="#">news</a>
           </li>
           <li>
-            <a  href="#">shop ▾</a>
+            <a  href="#">shop</a>
           </li>
         </nav>
 
         {{-- Searchbar --}}
         <div class="searchbar">
           <input type="search" name="" value="">
+          <span>Search <i class="fas fa-search"></i></span>
         </div>
 
       </div>
     </div>
   </header>
+
+
+  <div class="jumbo">
+
+  </div>

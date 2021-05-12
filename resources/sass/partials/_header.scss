@@ -1,10 +1,13 @@
 header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
   .top-side {
-    background-color: $top-header;
+    background-color: $primary-blue;
     height: 25px;
     nav {
       ul {
-        padding-top: 5px;
         display: flex;
         justify-content: flex-end;
         align-items: center;
@@ -21,12 +24,19 @@ header {
   }
 
   .bottom-side {
+    height: 120px;
+    padding-top: 20px;
     background-color: white;
     .container {
       display: flex;
       justify-content: space-between;
       align-items: center;
 
+        .brand {
+          img {
+            max-width: 80px;
+          }
+        }
       nav {
         ul {
           display: flex;
@@ -35,9 +45,39 @@ header {
           li {
             text-transform: uppercase;
             padding: 0 10px;
+
+            a {
+              font-size: 14px;
+              font-weight: bold;
+              color: $nav-link;
+              &:hover {
+                color: $nav-link-hover;
+              }
+            }
           }
+        }
+      }
+
+      .searchbar {
+        position: relative;
+        input {
+          border-bottom: 1px solid $primary-blue;
+        }
+
+        span {
+          top: 0;
+          right: 0px;
+          position: absolute;
         }
       }
     }
   }
+}
+
+.jumbo {
+  margin-top: 140px;
+  height: 400px;
+  background-image: url("/images/jumbotron.jpg");
+  background-position-x: center;
+  background-size: cover;
 }
