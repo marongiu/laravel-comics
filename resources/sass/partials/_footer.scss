@@ -1,0 +1,42 @@
+footer {
+  background-image: url('/images/footer-bg.jpg');
+  background-size: cover;
+  height: 500px;
+  .footer-link {
+    .container {
+      display: flex;
+      nav {
+        padding-top: 40px;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: stretch;
+        width: 30%;
+        ul {
+          margin: 0 20px;
+          li {
+            &:first-child {
+              padding-bottom: 10px;
+              color: white;
+            }
+            a {
+              font-size: 11px;
+              color: grey;
+              &:hover {
+                color: $primary-blue;
+              }
+            }
+          }
+        }
+      }
+
+      .logo-img {
+        height: 489px;
+        width: 70%;
+        background-image: url("/images/dc-logo-bg.png");
+        background-position: center;
+        background-size: 60%;
+        background-repeat: no-repeat;
+    }
+  }
+}
+}

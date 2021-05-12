@@ -112,7 +112,6 @@ header .bottom-side .container .searchbar span {
 
 main {
   background-color: #1c1c1c;
-  height: 1000px;
 }
 
 main #current_series h2 {
@@ -159,5 +158,93 @@ main .box-card .card:hover {
   transition: 1s;
   opacity: 0.8;
   transform: translateY(-10px);
+}
+
+main .button_load {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 30px 0;
+}
+
+main .button_load a {
+  color: white;
+  background: #0282f9;
+  padding: 10px 65px;
+  text-transform: uppercase;
+}
+
+main .info {
+  background: #0282f9;
+  padding: 20px 0;
+}
+
+main .info ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+main .info ul li {
+  vertical-align: middle;
+  margin: 10px 10px;
+}
+
+main .info ul li a {
+  color: white;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+main .info ul li img {
+  vertical-align: middle;
+  height: 50px;
+  width: 35px;
+}
+
+footer {
+  background-image: url("/images/footer-bg.jpg");
+  background-size: cover;
+  height: 500px;
+}
+
+footer .footer-link .container {
+  display: flex;
+}
+
+footer .footer-link .container nav {
+  padding-top: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
+  width: 30%;
+}
+
+footer .footer-link .container nav ul {
+  margin: 0 20px;
+}
+
+footer .footer-link .container nav ul li:first-child {
+  padding-bottom: 10px;
+  color: white;
+}
+
+footer .footer-link .container nav ul li a {
+  font-size: 11px;
+  color: grey;
+}
+
+footer .footer-link .container nav ul li a:hover {
+  color: #0282f9;
+}
+
+footer .footer-link .container .logo-img {
+  height: 489px;
+  width: 70%;
+  background-image: url("/images/dc-logo-bg.png");
+  background-position: center;
+  background-size: 60%;
+  background-repeat: no-repeat;
 }
 

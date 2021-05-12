@@ -32,8 +32,36 @@
       </div>
 {{-- Bottone caricamento --}}
       <div class="button_load">
-
+        <a href="#">Load More</a>
       </div>
     </div>
+
+      {{-- Lista info --}}
+      <div class="info">
+        <div class="container">
+          <ul>
+            <li>
+              <img src="/images/buy-comics-digital-comics.png" alt="img DC">
+              <a href="#">digital comics</a>
+            </li>
+            <li>
+              <img src="/images/buy-comics-merchandise.png" alt="img DC">
+              <a href="#">DC merchandise</a>
+            </li>
+            <li>
+              <img src="/images/buy-comics-subscriptions.png" alt="img DC">
+              <a href="#">subscription</a>
+            </li>
+            <li>
+              <img src="/images/buy-comics-shop-locator.png" alt="img DC">
+             <a href="#">comic shop locator</a>
+            </li>
+            <li>
+              <img src="/images/buy-dc-power-visa.svg" alt="img DC">
+              <a href="#">dc power visa</a>
+            </li>
+          </ul>
+        </div>
+      </div>
   </section>
 @endsection

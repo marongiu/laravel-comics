@@ -1,6 +1,5 @@
 main {
   background-color: $main_background;
-  height: 1000px;
   #current_series {
       h2 {
         display: inline;
@@ -43,6 +42,45 @@ main {
         transition: 1s;
         opacity: 0.8;
         transform: translateY(-10px);
+      }
+    }
+  }
+
+  .button_load {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px 0;
+      a {
+        color: white;
+        background: $primary-blue;
+        padding: 10px 65px;
+        text-transform: uppercase;
+      }
+  }
+
+  .info {
+    background: $primary-blue;
+    padding: 20px 0;
+    ul {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      li {
+
+        vertical-align: middle;
+        margin: 10px 10px;
+        a {
+          color: white;
+          text-transform: uppercase;
+          font-size: 14px;
+        }
+        img {
+          vertical-align: middle;
+          height: 50px;
+          width: 35px;
+        }
       }
     }
   }
