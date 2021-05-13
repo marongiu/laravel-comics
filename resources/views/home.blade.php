@@ -11,18 +11,18 @@
 
 {{-- Box card --}}
       <div class="box-card">
-        @foreach($cards as $card)
+        @foreach($comics as $index => $comic)
           <div class="card">
             {{-- Inserisco tutto in a per portare al link --}}
-            <a href="#">
+            <a href="{{ route('detail', ['id' => $index]) }}">
               {{-- Immagine card --}}
               <div class="card-image">
-                <img src="{{ $card["thumb"] }}">
+                <img src="{{ $comic["thumb"] }}">
               </div>
               {{-- Titolo card --}}
               <div class="card-title">
                 <h4>
-                  {{ $card["series"] }}
+                  {{ $comic["series"] }}
                 </h4>
               </div>
             </a>

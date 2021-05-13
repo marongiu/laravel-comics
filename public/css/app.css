@@ -23,6 +23,11 @@ a {
   margin: 0 auto;
 }
 
+.container-fluid {
+  max-width: 60%;
+  margin: 0 auto;
+}
+
 .blue {
   color: #0282f9;
 }
@@ -205,6 +210,61 @@ main .info ul li img {
   vertical-align: middle;
   height: 50px;
   width: 35px;
+}
+
+main .bar_blue {
+  background: #0282f9;
+  height: 100px;
+  position: relative;
+}
+
+main .bar_blue .content-image {
+  position: absolute;
+  top: -220px;
+}
+
+main .bar_blue .content-image img {
+  border: 2px solid white;
+}
+
+main .bar_blue .content-image span {
+  background: #52bfe3;
+  color: white;
+  border-left: 2px solid white;
+  border-top: 2px solid white;
+  position: absolute;
+}
+
+main .card_description {
+  padding-top: 100px;
+  background: white;
+}
+
+main .card_description .description_title h3 {
+  text-transform: uppercase;
+}
+
+main .card_description .description_content {
+  margin-top: 30px;
+  color: white;
+  display: flex;
+}
+
+main .card_description .description_content .description_price {
+  background: #55ba59;
+  padding: 10px 15px;
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid black;
+}
+
+main .card_description .description_content .price_check {
+  background: #55ba59;
+  padding: 10px 15px;
+  border-left: 1px solid black;
+  border-bottom: 1px solid black;
 }
 
 footer {
