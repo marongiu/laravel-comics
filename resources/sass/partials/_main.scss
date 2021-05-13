@@ -12,6 +12,7 @@ main {
   .box-card {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
     padding-top: 50px;
 
     .card {
@@ -90,6 +91,7 @@ main {
     height: 100px;
     position: relative;
     .content-image {
+      z-index: 1;
       position: absolute;
       top: -220px;
       img {
@@ -107,7 +109,7 @@ main {
   }
 
   .card_description {
-    padding-top: 100px;
+    padding: 50px 0;
     background: white;
 
     .description_title {
@@ -134,6 +136,29 @@ main {
         padding: 10px 15px;
         border-left:  1px solid black;
         border-bottom: 1px solid black;
+      }
+    }
+
+    .card_paragraph {
+      margin-top: 20px;
+      color: #555555;
+      font-size: 15px;
+    }
+  }
+
+  .card_detail {
+    border-top: 1px solid lightgrey;
+    padding-top: 30px;
+    background: #f6f6f6;
+    .detail_table {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      .detail_talent {
+        width: 50%;
+      }
+      .detail_specs {
+        width: 50%;
       }
     }
   }

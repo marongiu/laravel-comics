@@ -19,7 +19,7 @@
 
       {{-- Logo --}}
       <div class="brand">
-        <img src="{{ asset("images/dc-logo.png")}}" alt="">
+        <a href="/"><img src="{{ asset("images/dc-logo.png")}}" alt=""></a>
       </div>
 
       {{-- Nav link --}}
