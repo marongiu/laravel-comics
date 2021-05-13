@@ -14,8 +14,5 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-  $db = [
-      "cards" => config("comics")
-  ];
-    return view('home',$db);
+    return view('home')->with('cards',config('comics'));
 });

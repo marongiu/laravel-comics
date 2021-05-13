@@ -23,6 +23,10 @@ a {
   margin: 0 auto;
 }
 
+.blue {
+  color: #0282f9;
+}
+
 header {
   position: fixed;
   top: 0;
@@ -206,7 +210,10 @@ main .info ul li img {
 footer {
   background-image: url("/images/footer-bg.jpg");
   background-size: cover;
-  height: 500px;
+}
+
+footer .footer-link {
+  padding: 20px 0;
 }
 
 footer .footer-link .container {
@@ -214,11 +221,9 @@ footer .footer-link .container {
 }
 
 footer .footer-link .container nav {
-  padding-top: 40px;
+  padding-top: 30px;
   display: flex;
   flex-wrap: wrap;
-  align-items: stretch;
-  width: 30%;
 }
 
 footer .footer-link .container nav ul {
@@ -239,12 +244,72 @@ footer .footer-link .container nav ul li a:hover {
   color: #0282f9;
 }
 
+footer .footer-link .container nav p {
+  color: grey;
+  padding: 10px 0;
+  font-size: 13px;
+}
+
 footer .footer-link .container .logo-img {
-  height: 489px;
   width: 70%;
   background-image: url("/images/dc-logo-bg.png");
   background-position: center;
   background-size: 60%;
   background-repeat: no-repeat;
+}
+
+footer .footer-social {
+  padding: 40px 0;
+  background: #303030;
+}
+
+footer .footer-social .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+footer .footer-social .container .subscription a {
+  color: white;
+  border: 1px solid #0282f9;
+  padding: 10px 15px;
+}
+
+footer .footer-social .container .social {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+footer .footer-social .container .social h4 {
+  text-transform: uppercase;
+  color: #0282f9;
+  margin-right: 40px;
+}
+
+footer .footer-social .container .social ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+footer .footer-social .container .social ul li {
+  margin: 0 10px;
+}
+
+footer .footer-social .container .social ul li a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background: grey;
+  color: lightgrey;
+}
+
+footer .footer-social .container .social ul li a:hover {
+  background: #0282f9;
 }
 

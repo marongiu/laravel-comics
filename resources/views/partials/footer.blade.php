@@ -91,10 +91,40 @@
             <a href="#">Shop DC Collectibles</a>
           </li>
         </ul>
-      </nav>
-      <div class="logo-img">
+        <p>All Site Content TM and © 2020 DC Entertainment, unless otherwise <span class="blue">noted here</span>. All rights reserved. <span class="blue">
+          Cookies Settings </span></p>
+        </nav>
+        <div class="logo-img">
 
+        </div>
       </div>
     </div>
-  </div>
-</footer>
+
+    <div class="footer-social">
+      <div class="container">
+        <div class="subscription">
+          <a href="#">SIGN UP NOW!</a>
+        </div>
+        <div class="social">
+          <h4>Follow us</h4>
+          <ul>
+            <li>
+              <a href="#"><i class="fab fa-facebook-f"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fab fa-youtube"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fab fa-pinterest-p"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fas fa-map-marker-alt"></i></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
